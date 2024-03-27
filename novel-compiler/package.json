@@ -1,0 +1,20 @@
+{
+    "name": "小说阅读器",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "tsup run/reader.ts --watch --onSuccess \"pnpm load\"",
+        "load": "node dist/reader.cjs"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.11.30",
+        "tsup": "^8.0.2",
+        "typescript": "^5.4.3",
+        "vite": "^5.2.6"
+    }
+}
