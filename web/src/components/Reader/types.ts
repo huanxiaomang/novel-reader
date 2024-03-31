@@ -2,9 +2,8 @@ import { SerializedBookData } from "@/types";
 
 export interface ReaderOptions {
     book: SerializedBookData;
-    currentPage: number;
+    currentChapter: number;
     options: {
-        fontSize: number;
         lineHeight: number;
         fontFamily: string;
         backgroundColor: string;
